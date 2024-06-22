@@ -35,3 +35,8 @@ if (indice > -1) {
     lenguajes.splice(indice,1)
 }
 console.log(lenguajes)
+
+//Buscar en un Array
+
+var busqueda = lenguajes.find('Español');
+console.log(busqueda)
