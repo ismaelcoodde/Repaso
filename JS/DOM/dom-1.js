@@ -12,3 +12,5 @@ caja.style.background = "red";
 caja.style.padding = "20px";
 caja.style.color = "#ffffff";
 console.log(caja);
+
+//Seleccionar  un ID del DOM y modificarlo.
