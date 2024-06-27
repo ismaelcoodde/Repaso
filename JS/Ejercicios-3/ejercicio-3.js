@@ -14,3 +14,19 @@
         console.log("Evento submit capturado");
     })
 }); */
+
+
+window.addEventListener('load', function(){
+    var formulario = document.querySelector('#formulario');
+
+    formulario.addEventListener('submit', function(){
+        console.log('Evento capturado');
+
+    var nombre = document.querySelector('#nombre').value;
+    var apellido = document.querySelector('#apellidos').value;
+    var edad = document.querySelector('#edad').value;
+
+    console.log(nombre, apellidos, edad);
+
+    })
+})

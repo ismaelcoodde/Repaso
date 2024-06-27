@@ -1,27 +1,44 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <body>
+
+    <style>
+        .box{
+            width: 250px;
+            height: 250px;
+            float: left;
+            margin: 20px;
+        }
+        .dashed{
+            border: 3px dashed black;
+        }
+    </style>
  
     <h1>Ejercicio DOM, Eventos y Funciones</h1>
 
     <p>
-        <form method="POST" id="formulario">
+        <div class="box">
+        <form action="" method="" id="formulario" onsubmit="return false">
             <label for="nombre">Nombre: </label><br>
             <input type="text" name="nombre" id="nombre"><br>
             
             <label for="apellidos">Apellidos: </label><br>
             <input type="text" name="apellidos" id="apellidos"><br>
             
-            <label for="edad">Nombre: </label><br>
+            <label for="edad">Edad: </label><br>
             <input type="number" name="edad" id="edad"><br>
 
             <input type="submit" value="Enviar" id="submit"><br>
         </form>
+    </div>
+    <div class="box dashed">
+
+    </div>
     </p>
 
     <script src="ejercicio-3.js"></script>
