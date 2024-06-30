@@ -7,15 +7,6 @@
 4- Tener un boton que al darle click nos muetra los datos actuales del formulario.
 */
 
-/** window.addEventListener('load', function(){
-    var formulario = document.querySelector('#formulario');
-
-    formulario.addEventListener('submit', function(){
-        console.log("Evento submit capturado");
-    })
-}); */
-
-
 window.addEventListener('load', function(){
     var formulario = document.querySelector('#formulario');
     var box_dashed = document.querySelector('.dashed');
