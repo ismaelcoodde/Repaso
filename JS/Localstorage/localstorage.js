@@ -1,3 +1,4 @@
+'use strict'
 //Comprobar disponibilidad
 if(typeof(Storage) !=='undefined'){
     console.log('Local Storage Disponible');
@@ -26,3 +27,8 @@ localStorage.setItem('usuario', JSON.stringify(usuario));
  var userjs = JSON.parse(localStorage.getItem('usuario'));
  console.log(userjs);
  document.querySelector('.datos').append(userjs.nombre)
+
+
+ /**Ejercicio */
+ console.log('*********************************************')
+
